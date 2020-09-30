@@ -9,7 +9,6 @@ $connection = new MongoDB\Client;
 $database = $connection->selectDatabase("vote");
 
 //Select collection //
-
 $collection = $database->selectCollection("game");
 
 ?>
